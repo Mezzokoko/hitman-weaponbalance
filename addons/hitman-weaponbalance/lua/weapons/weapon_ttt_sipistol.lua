@@ -17,14 +17,14 @@ end
 
 SWEP.Base = "weapon_tttbase"
 SWEP.Primary.Recoil	= 1.35
-SWEP.Primary.Damage = 30
-SWEP.Primary.Delay = 0.38
+SWEP.Primary.Damage = 34
+SWEP.Primary.Delay = 0.19
 SWEP.Primary.Cone = 0.02
-SWEP.Primary.ClipSize = 20
-SWEP.Primary.Automatic = true
-SWEP.Primary.DefaultClip = 20
-SWEP.Primary.ClipMax = 80
-SWEP.Primary.Ammo = "Pistol"
+SWEP.Primary.ClipSize = 10
+SWEP.Primary.Automatic = false
+SWEP.Primary.DefaultClip = 10
+SWEP.Primary.ClipMax = 10
+SWEP.Primary.Ammo = "Pistol2"
 
 SWEP.HeadshotMultiplier = 10
 
@@ -32,7 +32,7 @@ SWEP.Kind = WEAPON_EQUIP
 SWEP.CanBuy = {ROLE_TRAITOR} -- only traitors can buy
 SWEP.WeaponID = AMMO_SIPISTOL
 
-SWEP.AmmoEnt = "item_ammo_pistol_ttt"
+--SWEP.AmmoEnt = "item_ammo_pistol_ttt"
 
 SWEP.IsSilent = true
 
